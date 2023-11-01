@@ -1,6 +1,6 @@
 package com.serviguidebpo.prices.mapper;
 
-import com.serviguidebpo.prices.data.model.PricesModel;
+import com.serviguidebpo.prices.model.PricesModel;
 import com.serviguidebpo.prices.dto.Prices;
 import org.mapstruct.Mapper;
 

@@ -7,7 +7,7 @@ import com.serviguidebpo.prices.mapper.PricesMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.serviguidebpo.prices.data.repository.PricesRepository;
+import com.serviguidebpo.prices.repository.PricesRepository;
 
 @Service
 public class PricesServiceImpl implements PricesService {

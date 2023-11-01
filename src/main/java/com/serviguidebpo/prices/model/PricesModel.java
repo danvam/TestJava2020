@@ -1,4 +1,4 @@
-package com.serviguidebpo.prices.data.model;
+package com.serviguidebpo.prices.model;
 
 import lombok.Getter;
 import lombok.Setter;
