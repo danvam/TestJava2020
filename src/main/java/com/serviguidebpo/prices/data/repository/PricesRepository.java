@@ -4,10 +4,10 @@ import java.time.LocalDateTime;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.serviguidebpo.prices.data.model.Prices;
+import com.serviguidebpo.prices.data.model.PricesModel;
 
-public interface PricesRepository extends CrudRepository<Prices, Long> {
+public interface PricesRepository extends CrudRepository<PricesModel, Long> {
 
-	Prices findFirstByStartDateBeforeAndEndDateAfterAndProductIdAndBrandIdOrderByPriorityDesc(LocalDateTime applicationDate1,
+	PricesModel findFirstByStartDateBeforeAndEndDateAfterAndProductIdAndBrandIdOrderByPriorityDesc(LocalDateTime applicationDate1,
 			LocalDateTime applicationDate2, Long productId, Long brandId);
 }

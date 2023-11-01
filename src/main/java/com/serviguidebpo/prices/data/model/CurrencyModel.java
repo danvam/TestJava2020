@@ -1,6 +1,6 @@
 package com.serviguidebpo.prices.data.model;
 
-public enum Currency {
+public enum CurrencyModel {
 
-	EUR;
+	EUR
 }
