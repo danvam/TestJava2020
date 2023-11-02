@@ -51,12 +51,18 @@ Resultados correctos en los test.
 
 ## Compilación y tests con Maven
 ```
-mvn clean compile test
+mvn clean compile
 ```
 
 ## Ejecutar aplicación Spring Boot
 ```
 mvn spring-boot:run
+```
+
+## Petición de ejemplo
+
+```
+http://localhost:8080/api/prices?applicationDate=2020-06-14T10:00:00.000-01:00&productId=35455&brandId=1
 ```
 
 ## Swagger
